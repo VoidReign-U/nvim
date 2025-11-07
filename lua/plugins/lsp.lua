@@ -98,8 +98,6 @@ return {
         require('mason').setup({})
         require('mason-lspconfig').setup({
             ensure_installed = {
-                "snyk",
-                "snyk-ls",
                 "pyright",
                 "bashls",
                 "perlnavigator",
@@ -112,7 +110,6 @@ return {
                 "jdtls",
                 "html",
                 "cssls",
-                "tsserver",
                 "yamlls",
                 "jsonls",
                 "dockerls",
@@ -121,7 +118,6 @@ return {
                 "lua_ls",
                 "lemminx",
                 "marksman",
-                "rasi_ls",
                 "tailwindcss",
                 "sqlls",
                 "graphql",
